@@ -1,0 +1,131 @@
+
+/*common class-------------*/
+.common_title{
+    position: absolute;
+    top: 73px;
+    left: 38%;
+    font-weight: 100;
+    background-color: gainsboro;
+    padding: 9px 19px;
+    border-radius: 9px;
+    font-size: 27px;
+}
+
+.common_hr{
+    margin: 100px 0;
+    background-color: darkgray;
+}
+
+.common_margin{
+    margin-bottom: 50px;
+}
+
+/*body-----------------*/
+body{
+    color: gray;
+    font-family: 'PT Serif', serif;
+    
+}
+
+
+/*header--------------*/
+header{
+    
+}
+
+.big_c{
+    font-size: 43px;
+}
+
+.custom_ul{
+    background-color: gainsboro;
+    padding: 6px 21px;
+    border-radius: 10px;
+    color: white !important;
+    
+}
+
+.hover{
+    background-color: white;
+}
+
+.hover a:hover{
+    color: red!important;
+}
+
+/*slider---------------*/
+#slider{
+    overflow: hidden;
+    
+}
+
+
+/*services---------------------*/
+#services{
+    overflow: hidden;
+    min-height: 300px;
+}
+
+.service_content{
+    text-align: justify;
+    line-height: 19px;
+    word-spacing: 3px;
+}
+
+.service_content_title{
+   color: black;
+}
+
+/*players-----------------------*/
+#players{
+    overflow: hidden;
+    
+}
+
+.player1,.player2, .player3, .player4, .player5{
+    
+    transition: .5s;
+}
+
+.player1:hover,.player2:hover,.player3:hover,.player4:hover,.player5:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+
+
+
+
+
+
+
+/*letest_work-----------------------*/
+#letest_work{
+    overflow: hidden;
+    
+}
+.letest_work_pic{
+    box-shadow: 0px 0px 15px 0px;
+    border: 5px solid;
+}
+
+.letest_work_discription{
+    min-height: 420px;
+    background-color: #E2E2E2;
+    
+}
+
+.red_title{
+    color: red;
+    
+}
+
+
+
+
+
+
+
+
